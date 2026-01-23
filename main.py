@@ -231,8 +231,7 @@ else:
 
         if r["percentile"] == 100:
             st.write("Congratulations, you have achieved the highest score yet!!")
-            if r['accuracy'] < 50:
-                st.write("Disqualified for having a score too low")
+
 
 
 
