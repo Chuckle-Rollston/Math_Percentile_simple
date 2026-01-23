@@ -156,7 +156,7 @@ def finish_quiz(show_answers: bool):
     accuracy = correct / len(questions)
     
     score = float("inf") if accuracy == 0 else (1.0 / accuracy) * time_taken
-    if accuracy < 30 and timetaken < 20
+    if accuracy < 30 and timetaken < 20:
         score = 100
     
     # Percentile vs GLOBAL history before inserting this run
@@ -232,7 +232,7 @@ else:
         if r["percentile"] == 100:
             st.write("Congratulations, you have achieved the highest score yet!!")
             if r['accuracy'] < 50:
-                st.write("Disqualified for having a score too low"
+                st.write("Disqualified for having a score too low")
 
 
 
