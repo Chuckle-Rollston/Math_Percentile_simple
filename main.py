@@ -339,7 +339,7 @@ else:
     # In-progress screen
     else:
         idx = st.session_state.idx
-        questions: List[Question] = st.session_state.questions
+        questions: list[Question] = st.session_state.questions
         q = questions[idx]
 
         st.info("Timer is running… Enter submits and jumps to the next one")
