@@ -262,7 +262,7 @@ st.caption("Score = (1/accuracy)^2 × time_taken_seconds  •  lower is better  
 # Settings row
 col1, col2 = st.columns(2)
 with col1:
-    seed = st.number_input("Random seed (0 = random)", value=0, step=1)
+    seed = 0 #st.number_input("Random seed (0 = random)", value=0, step=1)
 with col2:
     show_answers = st.checkbox("Show correct answers at end", value=True)
 
